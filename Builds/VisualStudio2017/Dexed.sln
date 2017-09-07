@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dexed - VST", "Dexed_VST.vcxproj", "{57D511ED-E818-C006-9D99-94BFEFDDBAB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C37C8E6-9441-931F-C487-ECA465F8F303} = {2C37C8E6-9441-931F-C487-ECA465F8F303}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dexed - Shared Code", "Dexed_SharedCode.vcxproj", "{2C37C8E6-9441-931F-C487-ECA465F8F303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D511ED-E818-C006-9D99-94BFEFDDBAB6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57D511ED-E818-C006-9D99-94BFEFDDBAB6}.Debug|Win32.Build.0 = Debug|Win32
+		{57D511ED-E818-C006-9D99-94BFEFDDBAB6}.Release|Win32.ActiveCfg = Release|Win32
+		{57D511ED-E818-C006-9D99-94BFEFDDBAB6}.Release|Win32.Build.0 = Release|Win32
+		{2C37C8E6-9441-931F-C487-ECA465F8F303}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2C37C8E6-9441-931F-C487-ECA465F8F303}.Debug|Win32.Build.0 = Debug|Win32
+		{2C37C8E6-9441-931F-C487-ECA465F8F303}.Release|Win32.ActiveCfg = Release|Win32
+		{2C37C8E6-9441-931F-C487-ECA465F8F303}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
